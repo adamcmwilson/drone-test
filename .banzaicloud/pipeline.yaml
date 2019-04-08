@@ -1,0 +1,10 @@
+cluster:
+  name: test-cluster
+
+pipeline:
+
+  frontend:
+    image: ubuntu:18.10
+    commands:
+      - echo "Adam Was Here"
+      - npm test
